@@ -11,6 +11,9 @@ module "dynamodb_table" {
   name     = "my-table"
   hash_key = "id"
 
+
+
+
 ## Notes
 
 **Warning: enabling or disabling autoscaling can cause your table to be recreated**
