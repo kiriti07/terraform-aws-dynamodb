@@ -11,20 +11,6 @@ module "dynamodb_table" {
   name     = "my-table"
   hash_key = "id"
 
-  attributes = [
-    {
-      name = "id"
-      type = "N"
-    }
-  ]
-
-  tags = {
-    Terraform   = "true"
-    Environment = "staging"
-  }
-}
-```
-
 ## Notes
 
 **Warning: enabling or disabling autoscaling can cause your table to be recreated**
