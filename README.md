@@ -13,7 +13,7 @@ module "dynamodb_table" {
 
 
 
-
+```
 ## Notes
 
 **Warning: enabling or disabling autoscaling can cause your table to be recreated**
